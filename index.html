@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test FE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="bg-[#cecfd1]">
+    <div class="w-11/12 lg:w-8/12 mx-auto border my-5 rounded-md shadow-xl">
+      <div class="bg-[#ffffff] p-5">
+        <div class="flex justify-between">
+          <div class="flex space-x-2 my-auto">
+            <div class="rounded-full overflow-hidden lg:w-10 w-10 h-10 ml-auto">
+              <img
+                src="assets/img/profile.jpg"
+                class="w-full h-full object-fill"
+              />
+            </div>
+            <div class="flex flex-col">
+              <span>
+                <a class="text-[#3db2eb]">Garry Newman</a> posted on your
+                timeline
+              </span>
+              <span class="text-slate-500">32 minutes ago</span>
+            </div>
+          </div>
+          <div class="my-auto">
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#000000"
+              class="bi bi-three-dots-vertical"
+            >
+              <path
+                d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          <p class="py-5">
+            Remember the place were talking about the other night? Found it!
+          </p>
+          <img
+            src="assets/img/bg-1-rotate.jpg"
+            class="w-full h-64 bg-cover object-cover"
+          />
+        </div>
+        <div class="flex my-3 space-x-5">
+          <div class="space-x-2">
+            <button class="text-slate-700">
+              <i class="fa-solid fa-heart"></i> Like (5)
+            </button>
+          </div>
+          <div class="space-x-2">
+            <button class="text-slate-700">
+              <i class="fa-solid fa-share-nodes"></i> Share (21)
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="bg-[#f5f5f5] p-5">
+        <button>1 comments <i class="fa-solid fa-chevron-down"></i></button>
+
+        <div class="grid grid-cols-12 gap-2 my-3">
+          <div class="lg:col-span-1 col-span-2">
+            <div class="rounded-full overflow-hidden lg:w-16 w-16 h-16 ml-auto">
+              <img
+                src="assets/img/profile.jpg"
+                class="w-full h-full object-fill"
+              />
+            </div>
+          </div>
+          <div class="lg:col-span-11 col-span-10">
+            <div class="flex flex-col">
+              <div class="text-slate-500">
+                <a class="font-semibold text-black">Garry Newman </a>
+                <span class="">June 10, 2018</span>
+              </div>
+              <p>
+                rem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industrys standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book
+              </p>
+              <div class="flex space-x-5">
+                <button class="text-[#3bb0e9]">Reply</button>
+                <button>
+                  <i class="fa-brands fa-font-awesome"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-12 gap-2">
+          <div class="lg:col-span-1 col-span-2">
+            <div class="rounded-full overflow-hidden lg:w-16 w-16 h-16 ml-auto">
+              <img
+                src="assets/img/profile-anonim.png"
+                class="w-full h-full object-fill"
+              />
+            </div>
+          </div>
+          <div class="lg:col-span-11 col-span-10">
+            <textarea
+              rows="4"
+              class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300"
+              placeholder="Add comment..."
+            ></textarea>
+            <button class="my-2 rounded-md text-white bg-[#039be5] p-2">
+              Post Comment
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
